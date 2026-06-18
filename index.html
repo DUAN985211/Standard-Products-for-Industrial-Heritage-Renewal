@@ -759,9 +759,9 @@
                 <!-- 交互式要素分类 Tab 过滤 -->
                 <div class="flex flex-wrap gap-2 border-b border-gray-200 dark:border-zinc-800 pb-4">
                     <button onclick="switchResourceTab('all')" id="tab-all" class="resource-tab-btn px-4 py-2 text-xs font-bold rounded-full bg-brand-500 text-white shadow-md transition">全部要素资源</button>
-                    <button onclick="switchResourceTab('finance')" id="tab-finance" class="resource-tab-btn px-4 py-2 text-xs font-semibold rounded-full bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 text-gray-700 dark:text-zinc-300 hover:border-brand-500 transition">金融资本支持 (6家)</button>
+                    <button onclick="switchResourceTab('finance')" id="tab-finance" class="resource-tab-btn px-4 py-2 text-xs font-semibold rounded-full bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 text-gray-700 dark:text-zinc-300 hover:border-brand-500 transition">金融资本支持 (7家)</button>
                     <button onclick="switchResourceTab('planning')" id="tab-planning" class="resource-tab-btn px-4 py-2 text-xs font-semibold rounded-full bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 text-gray-700 dark:text-zinc-300 hover:border-brand-500 transition">科研规划与修复 (35家)</button>
-                    <button onclick="switchResourceTab('operators')" id="tab-operators" class="resource-tab-btn px-4 py-2 text-xs font-semibold rounded-full bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 text-gray-700 dark:text-zinc-300 hover:border-brand-500 transition">全期运营开发 (23家)</button>
+                    <button onclick="switchResourceTab('operators')" id="tab-operators" class="resource-tab-btn px-4 py-2 text-xs font-semibold rounded-full bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 text-gray-700 dark:text-zinc-300 hover:border-brand-500 transition">全期运营开发 (31家)</button>
                     <button onclick="switchResourceTab('brands')" id="tab-brands" class="resource-tab-btn px-4 py-2 text-xs font-semibold rounded-full bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 text-gray-700 dark:text-zinc-300 hover:border-brand-500 transition">品牌商家IP (24家)</button>
                 </div>
 
@@ -849,6 +849,18 @@
                                 <li><b>政银战略合作顶层设计</b>：锁定有机更新。</li>
                                 <li><b>“动迁+开发建设”两阶段融资</b>：切分前期与后期贷款。</li>
                                 <li><b>融入行业生态</b>：推出“城市更新 2.0”产品体系。</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-4 hover:shadow-lg transition flex flex-col justify-between" data-type="finance">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-amber-500/10 text-amber-500 font-bold px-2 py-0.5 rounded">金融支持</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">恒丰银行</h4>
+                            <ul class="text-[11px] text-gray-600 dark:text-zinc-400 space-y-1 list-decimal pl-4">
+                                <li><b>城市更新专项授信</b>：支持存量资产盘活及老旧厂房改造中长期贷款。</li>
+                                <li><b>投贷联动与资金闭环</b>：协助项目前期包装与融资结构设计。</li>
+                                <li><b>绿色金融与REITs咨询</b>：提供绿色信贷、REITs前期策划等综合服务。</li>
                             </ul>
                         </div>
                     </div>
@@ -964,6 +976,38 @@
                             <span class="text-[10px] bg-blue-500/10 text-blue-500 font-bold px-2 py-0.5 rounded">策划研究机构</span>
                             <h4 class="font-extrabold text-gray-900 dark:text-white text-sm mt-1">浙江省图灵互联网研究院</h4>
                             <p class="text-[11px] text-gray-500">AIGC应用、数字经济及智慧园区运维标准。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-2 hover:shadow-lg transition flex flex-col justify-between" data-type="planning">
+                        <div>
+                            <span class="text-[10px] bg-blue-500/10 text-blue-500 font-bold px-2 py-0.5 rounded">策划研究机构</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm mt-1">浙大国际文旅学院</h4>
+                            <p class="text-[11px] text-gray-500">文旅融合战略规划、工业遗产价值评估与文化基因解码研究智库。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-2 hover:shadow-lg transition flex flex-col justify-between" data-type="planning">
+                        <div>
+                            <span class="text-[10px] bg-blue-500/10 text-blue-500 font-bold px-2 py-0.5 rounded">策划研究机构</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm mt-1">杭州市城市发展研究中心</h4>
+                            <p class="text-[11px] text-gray-500">城市更新政策研究、控规调整与片区统筹开发模式设计机构。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-2 hover:shadow-lg transition flex flex-col justify-between" data-type="planning">
+                        <div>
+                            <span class="text-[10px] bg-blue-500/10 text-blue-500 font-bold px-2 py-0.5 rounded">策划研究机构</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm mt-1">浙江省数秦科技有限公司</h4>
+                            <p class="text-[11px] text-gray-500">基于区块链的工业遗存数字确权、资产上链与碳足迹追踪技术服务商。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-2 hover:shadow-lg transition flex flex-col justify-between" data-type="planning">
+                        <div>
+                            <span class="text-[10px] bg-blue-500/10 text-blue-500 font-bold px-2 py-0.5 rounded">策划研究机构</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm mt-1">杭州小派智能科技有限公司</h4>
+                            <p class="text-[11px] text-gray-500">VR/AR软硬件研发制造与沉浸式文旅体验解决方案提供商。</p>
                         </div>
                     </div>
 
@@ -1201,6 +1245,78 @@
                             <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">浙江浙中城市建设集团</h4>
                             <p class="text-[11px] text-gray-500"><b>典型案例：</b>金华开发区双溪西路城市更新</p>
                             <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>一二三级一揽子联动开发与五百滩文化运营结合，分区分期、多次滚动回流盘活。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-3 hover:shadow-lg transition flex flex-col justify-between" data-type="operators">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-purple-500/10 text-purple-500 font-bold px-2 py-0.5 rounded">运营开发商</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">中建八局文旅博览投资发展有限公司</h4>
+                            <p class="text-[11px] text-gray-500"><b>典型案例：</b>无锡灵山梵宫、南京牛首山、普陀山观音法界、无锡仓储用房改造</p>
+                            <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>“研投建营”全产业链一体化，提供研策、投资、建管、运营全周期服务，涵盖宗教文旅、特色小镇、主题园区、博览场馆、历史建筑保护更新等类型。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-3 hover:shadow-lg transition flex flex-col justify-between" data-type="operators">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-purple-500/10 text-purple-500 font-bold px-2 py-0.5 rounded">运营开发商</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">上海盈石商业</h4>
+                            <p class="text-[11px] text-gray-500"><b>典型案例：</b>上海TX淮海·年轻力中心、北京THE BOX朝外·年轻力中心、上海EKA天物空间、无锡惠山古镇·映月里</p>
+                            <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>聚焦城市更新与文商旅融合，提供定位策划、建筑优化、招商、运营管理等一站式服务，擅长策展型商业与存量资产盘活。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-3 hover:shadow-lg transition flex flex-col justify-between" data-type="operators">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-purple-500/10 text-purple-500 font-bold px-2 py-0.5 rounded">运营开发商</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">横店集团</h4>
+                            <p class="text-[11px] text-gray-500"><b>典型案例：</b>横店影视城及多个影视文旅综合体</p>
+                            <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>以影视文旅综合体开发为核心，导入影视IP、沉浸式演出、明星见面会等实景娱乐资源，将工业遗存转化为影视取景地或泛娱乐空间。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-3 hover:shadow-lg transition flex flex-col justify-between" data-type="operators">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-purple-500/10 text-purple-500 font-bold px-2 py-0.5 rounded">运营开发商</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">华住集团</h4>
+                            <p class="text-[11px] text-gray-500"><b>典型案例：</b>全季、桔子水晶、花间堂等品牌酒店（全国多店）</p>
+                            <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>将存量物业改造为精品酒店或长租公寓，依托1.9亿+会员体系导入稳定商旅客流，提升资产运营收益。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-3 hover:shadow-lg transition flex flex-col justify-between" data-type="operators">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-purple-500/10 text-purple-500 font-bold px-2 py-0.5 rounded">运营开发商</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">浙江省建工集团</h4>
+                            <p class="text-[11px] text-gray-500"><b>典型案例：</b>杭钢公园部分厂房结构加固</p>
+                            <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>作为大型建筑国企，具备古建/工业遗产修复特种资质，擅长大型钢结构加固、托换技术，承接工业遗存改造EPC总包。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-3 hover:shadow-lg transition flex flex-col justify-between" data-type="operators">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-purple-500/10 text-purple-500 font-bold px-2 py-0.5 rounded">运营开发商</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">浙江省一建/二建/三建建设集团</h4>
+                            <p class="text-[11px] text-gray-500"><b>典型案例：</b>浙江省内多项老旧工业建筑改造项目</p>
+                            <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>依托房建、市政、机电一级资质，在老旧工业建筑改造、机电安装、节能改造方面协同施工，配合“一事一议”消防论证实现安全落地。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-3 hover:shadow-lg transition flex flex-col justify-between" data-type="operators">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-purple-500/10 text-purple-500 font-bold px-2 py-0.5 rounded">运营开发商</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">浙江省国际贸易集团</h4>
+                            <p class="text-[11px] text-gray-500"><b>典型案例：</b>多个产业园区及数字贸易服务项目</p>
+                            <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>以国际贸易、供应链金融、跨境电商等产业资源为牵引，协助导入外贸企业及数字贸易服务商，充实园区办公业态，推动“以商引商”。</p>
+                        </div>
+                    </div>
+
+                    <div class="resource-card bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl p-6 space-y-3 hover:shadow-lg transition flex flex-col justify-between" data-type="operators">
+                        <div class="space-y-2">
+                            <span class="text-[10px] bg-purple-500/10 text-purple-500 font-bold px-2 py-0.5 rounded">运营开发商</span>
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-sm">诗莉莉酒店集团</h4>
+                            <p class="text-[11px] text-gray-500"><b>典型案例：</b>黄山诗莉莉慰颜府（祝枝山故居复建）、金华三十六院溪（古村落改建）、合肥山南钓影园（田园孤岛疗愈）</p>
+                            <p class="text-[11px] text-gray-600 dark:text-zinc-400"><b>模式：</b>以“深度情感化体验”为核心，通过IP爆款赋能，提供全权委托管理服务（前期策划、设计顾问、筹建、运营），覆盖遗址古村、城市地标、海岛洞穴等多元场景。</p>
                         </div>
                     </div>
 
